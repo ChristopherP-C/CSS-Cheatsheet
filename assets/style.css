@@ -1,0 +1,9 @@
+header h1 {
+    color: blueviolet;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
