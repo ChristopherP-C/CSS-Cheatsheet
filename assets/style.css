@@ -1,5 +1,17 @@
+header {
+    text-align: center;
+    margin: 50px auto;
+    padding-bottom: 50px;
+}
+
 header h1 {
     color: blueviolet;
+    font-size: calc(3.5vw + 1rem);
+}
+
+header p {
+    font-size: calc(1vw + 15px);
+    padding: 2% 12% 0;
 }
 
 main {
