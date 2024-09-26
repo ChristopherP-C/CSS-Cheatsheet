@@ -1,3 +1,7 @@
+:root {
+    ---font-main: rgba(197, 35, 202);
+}
+
 body {
     background-color: grey;
 }
@@ -9,7 +13,7 @@ header {
 }
 
 header h1 {
-    color: rgba(197, 35, 202);
+    color: var(---font-main);
     font-size: calc(3.5vw + 1rem);
 }
 
@@ -27,10 +31,36 @@ main {
     flex: 1 1 25%;
     margin: 2rem;
     padding: 1rem 2rem;
-    height: 50%;
+    /* height: 50%; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px dashed rgba(240, 224, 224, 0.733);
-    border-radius: 15%;
+    outline: 2px dashed rgba(240, 224, 224, 0.733);
+}
+
+.row1 {
+    height: 200px;
+}
+
+.row2 {
+    height: 300px;
+}
+
+pre {
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.5) 20%,
+        rgba(232, 102, 236, 0.8) 80%
+    );
+    border-radius: 7%;
+    padding: 3px
+}
+
+footer {
+    text-align: center;
+    font-size: 36px;
+    color: var(---font-main);
+}
+
+footer span {
+    color: black;
 }
